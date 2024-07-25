@@ -1,0 +1,111 @@
+/* CSS code linked */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.main_box{
+    background: url("Cam.jpg");
+    height: 100vh;
+}
+.btn_one{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    left: 13px;
+    top: 22px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+.sidebar_menu{
+    position: fixed;
+    left: -450px;
+    height: 100vh;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 30px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    transition: all 0.5s linear;
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 1);
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    left: 75px;
+    top: 20px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.btn_two i{
+    color: grey;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 90px;
+    position: absolute;
+    left: 13px;
+    opacity: 0;
+    cursor: pointer;
+}
+.sidebar_menu .menu{
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 150px;
+}
+.sidebar_menu .menu li{
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s linear;
+}
+.sidebar_menu .menu i,a{
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+.sidebar_menu .menu i{
+    padding-right: 8px;
+}
+.sidebar_menu .social_media{
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    left: 22%;
+    bottom: 16px;
+}
+#check{
+    display: none;
+}
+.sidebar_menu .social_media i{
+    color: white;
+    opacity: 0.5;
+    padding: 0 5px;
+    transition: all 0.3s linear;
+}
+.sidebar_menu .menu li:hover {
+    box-shadow: 0 0 6px rgba(255,255,255,0.5);
+}
+.btn_one i:hover{
+    font-size: 60px;
+}
+.btn_two i:hover{
+    font-size: 50px;
+}
+.sidebar_menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+}
+#check:checked ~ .btn_one{
+    opacity: 1;
+}

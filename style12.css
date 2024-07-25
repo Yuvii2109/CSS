@@ -1,0 +1,26 @@
+/* CSS code linked */
+
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,0,0,0);
+    margin: 5px;
+    border: 2px solid black;
+}
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,0,0,0.5);
+    margin: 5px;
+    border: 2px solid black;
+}
+#div3{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,0,0,1);
+    margin: 5px;
+    border: 2px solid black;
+}
+div{
+    display: inline-block;
+}

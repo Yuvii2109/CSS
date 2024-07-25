@@ -1,0 +1,22 @@
+/* CSS File Linked */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: #1b74e4 !important;
+}
+
+/* Ab bhagwan bhi change nahi kr skta 
+h1 ke colour ko ... cuz it's imp */
+
+#searchbtn{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.userbtn{
+    background-color: aqua;
+    color: black;
+    font-weight: 700;
+}

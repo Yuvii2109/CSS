@@ -1,0 +1,27 @@
+/* CSS File Linked */
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    background-color: yellow;
+}
+
+/* Ab input box ka colour 
+change nahi hua... white ka 
+white hi hai toh uske liye -> */
+
+input{
+    background-color: inherit;
+}
+
+/* Ab again button toh vaise 
+ka vaisa hi reh gya na toh -> */
+
+button{
+    background-color: inherit;
+}
+
+/* Zroori nahi hai ki saari properties
+inherit ho jaaye... there are many such properties 
+which are non inheritable like width, height, border, etc. */

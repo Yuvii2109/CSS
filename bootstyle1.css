@@ -1,0 +1,21 @@
+/* CSS code linked */
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+}
+.container{
+    padding-top: 50px;
+}
+span{
+    display: block;
+}
+.card-title{
+    background-color: lightgray;
+}
+hr{
+    margin: 0;
+}

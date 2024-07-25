@@ -1,0 +1,21 @@
+/* CSS code linked */
+
+div{
+    background-color: #4dff00ff;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    transition: 2s;
+    margin: 50px;
+    text-align: center;
+    color: #4dff00ff;
+}
+div:hover{
+    background-color: black;
+    border-radius: 50%;
+}
+p{
+    margin-top: 90px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

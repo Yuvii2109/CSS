@@ -1,0 +1,10 @@
+/* CSS code linked */
+
+/* In order to avoid snowballing effect
+we use the relative unit of REM */
+section{
+    font-size: 20px;
+}
+div{
+    font-size: 2rem;
+}

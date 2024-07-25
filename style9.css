@@ -1,0 +1,13 @@
+/* CSS code linked */
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px dashed black;
+    background-color: yellow;
+    margin: 5px;
+    display: inline-block;
+}
+#third{
+    display: none;
+}

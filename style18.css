@@ -1,0 +1,21 @@
+/* CSS code linked */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+/* By using fixed we can fix the object 
+to the page at a particular position */
+
+#fixed{
+    background-color: red;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}

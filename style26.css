@@ -1,0 +1,26 @@
+/* CSS code linked */
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media(orientation:landscape){
+    h1{
+        background-color: black;
+        color: white;
+    }
+    div{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: chartreuse;
+    }
+}
+div:hover{
+    background-color: blueviolet;
+    box-shadow: 2px 2px 5px black;
+    transition-duration: 1s;
+}

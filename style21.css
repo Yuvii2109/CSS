@@ -1,0 +1,37 @@
+/* CSS code linked */
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#container{
+    height: 200px;
+    width: 50%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; 
+    
+    /* Using the justify function */
+
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    /* Using the align-content function */
+
+    align-content: flex-start;
+}
+#orange{
+    align-self: flex-end;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#container div{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: white;
+}

@@ -1,0 +1,138 @@
+/* CSS file linked */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h3{
+    color: #b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li a{
+    color: hotpink;
+}
+
+/* We can even change the color of the
+unordered bullet points by typing - 
+nav ul li, a{
+    color: ;
+} */
+
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: crimson;
+    color: azure;
+}
+
+/* the nav ul li a written 
+above can also be written as 
+nav a {
+    property: value;
+} */
+
+div > input{
+    background-color: aliceblue;
+}
+
+/* The above command can also be written as 
+input[type]{
+    background-color: aliceblue;
+} */
+
+/* The above operation only works for the
+direct descendant and not for the descendants
+of the child element */
+
+input[type = "text"]{
+    color: darkred;
+    font-weight: 600;
+}
+input[type = "password"]{
+    color: darkblue;
+    font-weight: 600;
+}
+div[id = "myId"] p{
+    color: chocolate;
+}
+
+/* The above command can also be given as - 
+#myId p{
+    color: chocolate;
+} */
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Isse upvote or submit toh change hogya
+but login and sign in nahi hua... reason 
+behind this is specificity */
+
+h3:hover{
+    text-decoration: none;
+}
+
+h3:active{
+    background-color: pink;
+    color: black;
+    font-weight: 600;
+}
+
+/* Again it won't work on the login
+and the sign in button because they have
+been altered using ->
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+} so we can only change the active color*/
+
+p:active{
+    font-weight: bold;
+    color: blueviolet;
+}
+input[type="radio"]:checked + label{
+     color: chartreuse;
+     font-weight: bold;
+}
+
+/* Upr wale code main sirf
+input[type="radio"]:checked{
+    color: chartreuse;
+    font-weight: bold;
+} likhkr kaam nahi chlega... */
+
+div:nth-of-type(2n){
+    background-color: antiquewhite;
+}
+h1::first-letter{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+/* ::first-line is used to select and change the
+properties of the first line of a paragraph
+or any other element */
+
+p::selection{
+    background-color: yellow;
+}

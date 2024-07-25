@@ -1,0 +1,32 @@
+/* CSS code linked */
+
+/* We can even add text to the given box */
+
+#one{
+    width: 450px;
+    height: 200px;
+    background-color: crimson;
+    margin: 10px auto;
+    background-image: url(pic_css.jpg);
+    background-size: contain;
+}
+#two{
+    width: 450px;
+    height: 200px;
+    background-color: crimson;
+    margin: 10px auto;
+    background-image: url(pic_css.jpg);
+    background-size: cover;
+}
+#three{
+    width: 450px;
+    height: 200px;
+    background-color: crimson;
+    margin: 10px auto;
+    background-image: url(pic_css.jpg);
+    background-size: auto;
+}
+/* Major difference between contain, cover, 
+and auto is that contain repeats the image 
+again n again to fill the given space, cover 
+crops the image and auto stretches it */

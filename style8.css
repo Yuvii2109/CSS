@@ -1,0 +1,12 @@
+/* CSS code linked */
+
+h2{
+    display: inline;
+    background-color: aqua;
+}
+span{
+    display: block;
+    background-color: crimson;
+    height: 20px;
+    width: 100px;
+}
